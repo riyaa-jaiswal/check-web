@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <style>
+        /* * {
+            box-sizing: border-box;
+        } */
+
+        /* css reset */
+        body {
+            font-family: "Oswald", sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/img1.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            /* background-position:center top; */
+
+        }
+
+        /* header section */
+        .header {
+            /* background-color:white; */
+            margin-top: -21px;
+        }
+
+        /* logo section */
+        .left {
+            position: absolute;
+            /* border: 2px solid red; */
+            display: inline-block;
+            left: 34px;
+            top: 18px;
+
+        }
+
+        .left img {
+            width: 150px;
+            height: 80px;
+
+        }
+
+        /* .left div{
+            text-align: center;
+            font-size: 18px;
+        } */
+
+        /* nav section */
+        .mid {
+            /* border: 2px solid blue; */
+            display: block;
+            width: 33%;
+            margin: 30px auto;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            list-style: none;
+        }
+
+        .navbar li a {
+            font-size: 25px;
+            color: black;
+            padding: 34px 34px;
+            text-decoration: none;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: brown;
+        }
+
+
+        /* buton section */
+        .right {
+            /* border: 2px solid green; */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 15px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: "Oswald", sans-serif;
+        }
+
+        .btn:hover {
+            background-color: rgb(234, 193, 193);
+        }
+
+        .container {
+            /* border: 2px solid green; */
+            margin: 87px 50px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 4px;
+            /* border:2px solid rgb(173, 56, 56); */
+            margin: 11px auto;
+            border-radius: 8px;
+            font-family: "Oswald", sans-serif;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            margin: 20px auto;
+            width: 70%
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="img/img5.png" alt="">
+
+        </div>
+        <div class="mid">
+            <!--mid for nav-->
+            <ul class="navbar">
+                <li><a href="" target="_blank" class="active">Home</a>
+                </li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Fitness Center</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right box for button -->
+            <button class="btn">Calls Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Gorakhpur</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your locality">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
